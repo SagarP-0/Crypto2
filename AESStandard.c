@@ -7,10 +7,10 @@
  * Key sequence used: k_{-1}, k_0, k_1, ..., k_9   (11 keys, 16 bytes each)
  *
  * identical usuage to aesni.c 
- *   ./aes_software enc <32-hex-char key> <32-hex-char plaintext>
- *   ./aes_software dec <32-hex-char key> <32-hex-char ciphertext>
+ *   ./aes enc <32-hex-char key> <32-hex-char plaintext>
+ *   ./aes dec <32-hex-char key> <32-hex-char ciphertext>
  * 
- * use same example : ./aesni_cipher enc 000102030405060708090a0b0c0d0e0f 00112233445566778899aabbccddeeff
+ * use same example : ./aes enc 000102030405060708090a0b0c0d0e0f 00112233445566778899aabbccddeeff
  *
  */
 

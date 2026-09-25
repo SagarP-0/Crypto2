@@ -1,11 +1,11 @@
 /*
  * SAGAR PARAJULI CS26BTKMU11003
  * object file usuage
- *   ./aesni_cipher enc <32-hex-char key> <32-hex-char plaintext>
- *   ./aesni_cipher dec <32-hex-char key> <32-hex-char ciphertext>
+ *   ./aesni enc <32-hex-char key> <32-hex-char plaintext>
+ *   ./aesni dec <32-hex-char key> <32-hex-char ciphertext>
  *
  * Example:
- *   ./aesni_cipher enc 000102030405060708090a0b0c0d0e0f 00112233445566778899aabbccddeeff
+ *   ./aesni enc 000102030405060708090a0b0c0d0e0f 00112233445566778899aabbccddeeff
  *
  * Prints the round keys and the resulting ciphertext/plaintext in hex,
  * so the output can be diffed directly against the standard
