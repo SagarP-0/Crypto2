@@ -113,3 +113,33 @@ plaintext  : 00112233445566778899aabbccddeeff
 ## AES benchmark
 
 Please find the report on AES comparison on the repo and the classroom.
+
+## Galios field table of 8
+
+>> sagar@stoopid:~/Documents/Crypto/Assignment2$ gcc -o gf gf8.c  
+>> sagar@stoopid:~/Documents/Crypto/Assignment2$ ./gf
+GF(2^3) = F2[x] / (x^3 + x + 1)
+
+Element representation:
+Binary  Decimal  Polynomial
+000     0        0
+001     1         1
+010     2         x
+011     3         x + 1
+100     4        x^2
+101     5        x^2 + 1
+110     6        x^2 + x
+111     7        x^2 + x + 1
+
+Multiplication table (decimal labels):
+
+x | 0 1 2 3 4 5 6 7
+--+----------------
+0 | 0 0 0 0 0 0 0 0
+1 | 0 1 2 3 4 5 6 7
+2 | 0 2 4 6 3 1 7 5
+3 | 0 3 6 5 7 4 1 2
+4 | 0 4 3 7 6 2 5 1
+5 | 0 5 1 4 2 7 3 6
+6 | 0 6 7 1 5 3 2 4
+7 | 0 7 5 2 1 6 4 3
