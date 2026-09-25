@@ -115,9 +115,11 @@ plaintext  : 00112233445566778899aabbccddeeff
 Please find the report on AES comparison on the repo and the classroom.
 
 ## Galios field table of 8
+Copy pasted output from terminal may not appear properly formatted.
 
->> sagar@stoopid:~/Documents/Crypto/Assignment2$ gcc -o gf gf8.c  
->> sagar@stoopid:~/Documents/Crypto/Assignment2$ ./gf
+>> gcc -o gf gf8.c  
+>> ./gf
+
 GF(2^3) = F2[x] / (x^3 + x + 1)
 
 Element representation:
